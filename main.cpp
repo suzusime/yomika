@@ -68,6 +68,10 @@ std::string process_text(std::string src){
 	string dest = remove_comment(src);
 	dest = style_h1(dest);
 	dest = style_h2(dest);
+	dest = style_h3(dest);
+	dest = style_h4(dest);
+	dest = style_h5(dest);
+	dest = style_h6(dest);
 	return dest;
 }
 
