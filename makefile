@@ -1,2 +1,2 @@
 all:
-	g++ -std=c++11 -o yomika main.cpp
+	g++ -std=c++14 -o yomika main.cpp
